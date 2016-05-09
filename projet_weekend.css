@@ -1,0 +1,127 @@
+/*FICHIER PROJET WEEKEND FACERENNES MAI 2016*/
+html
+{
+background-image:url(images/bg.jpg);
+background-repeat:no-repeat;
+
+min-width : 1400px;
+min-height: 1020px;
+background-attachment:fixed;
+background-size: cover;
+}
+
+ul {
+width: 1010px;
+list-style-type: none; /*efface les puces*/
+margin-right: 0px;
+padding-left: 10px;
+overflow: hidden;
+background-color: #e8e8e8;
+margin-bottom: 0px;
+}
+
+li {
+float: left;
+/*padding-right: 10%;*/
+text-align: center;
+}
+strong {
+color : #cfa205;
+float : left;
+} 
+
+li a {
+color: #7a7a7a;
+padding: 50px 50px;
+text-decoration: none; /*lien non souligné*/
+width : 1020px;
+height: 60px;
+}
+
+
+li a:hover {
+    background-color: #898989; /* Change la couleur du lien au moment du survol */
+}
+
+
+
+h1{
+font-family: "Josefin Sans", Verdana, Sans-Serif;
+background-color: #000000; 
+color : #cfa205;
+font-size: 133px;
+width : 1020px;
+height: 140px;
+margin-top: 60px;
+margin-bottom: 0px;
+padding: 0px;
+text-align: center;
+}
+
+h2
+{
+font-size: 18px;
+text-align: center;
+background-color: #FFFFFF;
+padding-bottom: 30px;
+margin-bottom : 0px;
+margin-top :0px;
+padding-top:20px;
+	/*width: 900px;
+	height: 90px;*/
+}
+h3
+{
+text-align: center;
+color : yellow;
+width : 1020px;
+height: 60px;
+margin-top : 20px;
+margin-bottom : 0px;
+}
+
+#contact
+{
+font-size: 14px;
+
+}
+
+
+#rezo /*rez sos*/
+{
+text-align: center;
+/*display: flex;
+display: space-around;*/  /*chercher info Flexbox*/
+width : 1020px;
+height : 60px;
+background-color : #e8e8e8;
+margin-top : 0px;
+margin-bottom : 0px;
+padding-bottom: 0px;
+
+
+}
+table 
+{
+	text-align: center;
+	/*justify-content: justify;*/
+	font-size: 14px;
+	background-color: #FFFFFF; /*white*/
+	/*width:260px;
+	height:240px;*/
+	margin-top: 0px;
+   
+    padding-top :0px;
+    padding-left: 50px;
+    padding-right: 50px;
+ overflow: hidden;
+}
+
+body
+{
+	/*text-align: center;*/
+	background-color: #000000;
+	margin-left : auto;
+	margin-right : auto;
+	width : 1020px;
+}
